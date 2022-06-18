@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    position: relative;
+    height: 150px;
+    width: 400px;
+
+}
+
+.red {
+    position: absolute;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+.blue {
+    position: absolute;
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    left: 150px;
+
+}
+
+.green {
+    position: absolute;
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    right: 0;
+}
+
+/* Task2 */
+div.general {
+    position: relative;
+    height: 300px;
+    width: 400px;
+}
+
+div.hotpink {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    z-index: 1;
+}
+
+div.cornflowerblue {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+}
+
+div.greenyellow {
+    position: absolute;
+    left: 140px;
+    top: 140px;
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+}
+
+/* Task3 */
+div.trafficlight {
+    position: relative;
+    height: 300px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+div.gen {
+    position: relative;
+    height: 220px;
+    width: 70px;
+    left: 35px;
+    top: 40px;
+}
+
+div.redlight {
+    position: relative;
+    top: 0px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid black;
+}
+
+div.yellowlight {
+    position: relative;
+    top: 5px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+div.greenlight {
+    position: relative;
+    top: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: green;
+    border: 1px solid black;
+} 
